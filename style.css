@@ -7,28 +7,113 @@ div div {
 }
 
 .doll {
-	height: 525px; width: 240px;
+	height: 600px; width: 240px;
 	margin: 0 auto;
-	border: 1px solid black;
+	/*REMOVE THIS*/
+	/*border: 1px dotted red;*/
 }
 
 .head {
 	height: 240px; width: 240px;
-	border-radius: 120px 120px 90px 90px;
+	border-radius: 120px 120px 77px 77px;
 }
 
 .face {
-	background: #fff;
-	height: 160px; width: 160px;
-	border-radius: 80px 80px 60px 60px;
+	background: floralwhite;
+	height: 180px; width: 180px;
+	border-radius: 90px 90px 60px 60px;
 	position: absolute;
-	margin-left: 40px;
-	margin-top: 55px;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+.eye_l, .eye_r {
+	background: transparent;
+	height: 30px; width: 40px;
+	border-bottom: 2px dotted darkslategray;
+	border-radius: 0 0 15px 15px;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.eye_l {
+	margin-left: 30px;
+}
+
+.eye_r {
+	margin-left: 110px;
+}
+
+.nose {
+	background: pink;
+	height: 2px; width: 2px;
+	border-radius: 100%;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 89px;
+}
+
+.mouth {
+	width: 20px; height: 4px;
+	background: transparent;
+	border-bottom: 1px solid red;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 80px;
+}
+
+.hair {
+	background: brown;
+	height: 40px; width: 100px;
+	margin-left: 25px;
+	border-radius: 0 0 120px 40px;
+}
+
+
+.bow {
+	z-index: 1;
+	background: transparent;
+	height: 100px; width: 100px;
+	position: absolute;
+	margin-top: -17px;
+	margin-bottom: -80px;
+	margin-left: 70px;
+	/*REMOVE THIS*/
+	/*border: 1px dashed green;*/
+}
+
+.bow_l, .bow_r {
+	background: coral;
+	height: 33px; width: 40px;
+	position: absolute;
+	border: 1px solid seashell;
+}
+
+.bow_l {
+	border-radius: 8px 17px 17px 8px;
+}
+
+.bow_c {
+	z-index: 2;
+	background: coral;
+	height: 27px; width: 30px;
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 35px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.bow_r {
+	margin-left: 60px;
+	border-radius: 17px 8px 8px 17px;
 }
 
 .body {
+	background: darkgray;
 	position: absolute;
-	margin-top: 5px;
-	height: 280px; width: 240px;
-	border-radius: 90px 90px 270px 270px
+	margin-top: 2px;
+	height: 359px; width: 240px;
+	border-radius: 115px 115px 270px 270px;
+	padding: -5px;
 }
