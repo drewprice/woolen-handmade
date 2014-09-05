@@ -16,6 +16,7 @@ div div {
 .head {
 	height: 240px; width: 240px;
 	border-radius: 120px 120px 77px 77px;
+	border: 1px solid dimgray;
 }
 
 .face {
@@ -25,6 +26,7 @@ div div {
 	position: absolute;
 	margin-left: 30px;
 	margin-top: 40px;
+	border: 1px solid dimgray;
 }
 
 .eye_l, .eye_r {
@@ -45,7 +47,7 @@ div div {
 }
 
 .nose {
-	background: pink;
+	background: bisque;
 	height: 2px; width: 2px;
 	border-radius: 100%;
 	position: absolute;
@@ -66,7 +68,8 @@ div div {
 	background: brown;
 	height: 40px; width: 100px;
 	margin-left: 25px;
-	border-radius: 0 0 120px 40px;
+	border-radius: 120px 20px 120px 20px;
+	border: 1px solid floralwhite;
 }
 
 
@@ -75,7 +78,7 @@ div div {
 	background: transparent;
 	height: 100px; width: 100px;
 	position: absolute;
-	margin-top: -17px;
+	margin-top: -15px;
 	margin-bottom: -80px;
 	margin-left: 70px;
 	/*REMOVE THIS*/
@@ -116,4 +119,5 @@ div div {
 	height: 359px; width: 240px;
 	border-radius: 115px 115px 270px 270px;
 	padding: -5px;
+	border: 1px solid gray;
 }
