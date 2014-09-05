@@ -47,12 +47,24 @@ div div {
 }
 
 .nose {
-	background: bisque;
-	height: 2px; width: 2px;
-	border-radius: 100%;
+	background: transparent;
+	height: 3px; width: 4px;
+	border-bottom: 1px solid burlywood;
+	border-right: 1px solid burlywood;
+	border-radius: 0 2px 3px 2px;
 	position: absolute;
 	margin-top: 130px;
-	margin-left: 89px;
+	margin-left: 88px;
+}
+
+
+.speck {
+	background: sienna;
+	height: 2px; width: 2px;
+	border-radius: 1px;
+	position: absolute;
+	margin-left: 45px;
+	margin-top: 135px;
 }
 
 .mouth {
@@ -67,18 +79,28 @@ div div {
 .hair {
 	background: brown;
 	height: 40px; width: 100px;
+	margin-top: -1px;
 	margin-left: 25px;
 	border-radius: 120px 20px 120px 20px;
 	border: 1px solid floralwhite;
 }
 
+.stitch_head {
+	background: transparent;
+	height: 237px; width: 237px;
+	border-radius: 118.5px 118.5px 76px 76px;
+	border: 1px dashed dimgray;
+	position: absolute;
+	margin-left: 0.75px;
+	margin-top: 0.75px;
+}
 
 .bow {
 	z-index: 1;
 	background: transparent;
 	height: 100px; width: 100px;
 	position: absolute;
-	margin-top: -15px;
+	margin-top: -14px;
 	margin-bottom: -80px;
 	margin-left: 70px;
 	/*REMOVE THIS*/
@@ -112,12 +134,27 @@ div div {
 	border-radius: 17px 8px 8px 17px;
 }
 
+/* TODO
+.ribbon_l, .ribbon_r {
+
+}
+*/
+
 .body {
 	background: darkgray;
 	position: absolute;
 	margin-top: 2px;
 	height: 359px; width: 240px;
 	border-radius: 115px 115px 270px 270px;
-	padding: -5px;
 	border: 1px solid gray;
+}
+
+.stitch_body {
+	background: transparent;
+	position: absolute;
+	margin-top: 0.75px;
+	margin-left: 0.5px;
+	height: 354.51px; width: 237px;
+	border-radius: 113.56px 113.56px 266.625px 266.625px;
+	border: 1px dashed gray;
 }
