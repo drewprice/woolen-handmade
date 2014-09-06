@@ -9,8 +9,6 @@ div div {
 .doll {
 	height: 600px; width: 240px;
 	margin: 0 auto;
-	/*REMOVE THIS*/
-	/*border: 1px dotted red;*/
 }
 
 .head {
@@ -103,11 +101,10 @@ div div {
 	margin-top: -14px;
 	margin-bottom: -80px;
 	margin-left: 70px;
-	/*REMOVE THIS*/
-	/*border: 1px dashed green;*/
 }
 
 .bow_l, .bow_r {
+	z-index: 2;
 	background: coral;
 	height: 33px; width: 40px;
 	position: absolute;
@@ -119,7 +116,7 @@ div div {
 }
 
 .bow_c {
-	z-index: 2;
+	z-index: 3;
 	background: coral;
 	height: 27px; width: 30px;
 	position: absolute;
@@ -134,11 +131,27 @@ div div {
 	border-radius: 17px 8px 8px 17px;
 }
 
-/* TODO
-.ribbon_l, .ribbon_r {
 
+.ribbon_l, .ribbon_r {
+	background: coral;
+	height: 55px; width: 15px;
+	position: absolute;
+	margin-top: 22px;
+	border: 1px solid floralwhite;
 }
-*/
+
+.ribbon_l {
+	margin-left: 31.5px;
+	transform: rotate(8deg);
+	border-radius: 0 0 25px 5px;
+}
+
+.ribbon_r {
+	margin-left: 53.5px;
+	transform: rotate(-8deg);
+	border-radius: 0 0 5px 25px;
+}
+
 
 .body {
 	background: darkgray;
