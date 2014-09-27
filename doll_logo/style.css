@@ -17,10 +17,6 @@ div div {
 	border: 1px solid dimgray;
 }
 
-.head:hover {
-	transform: rotate(1deg) translate(1px,1px);
-}
-
 .face {
 	background: floralwhite;
 	height: 180px; width: 180px;
