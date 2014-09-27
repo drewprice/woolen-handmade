@@ -1,0 +1,177 @@
+div {
+	margin: 0; padding: 0;
+}
+
+div div {
+	background: gray;
+}
+
+.doll {
+	height: 600px; width: 240px;
+	margin: 0 auto;
+}
+
+.head {
+	height: 240px; width: 240px;
+	border-radius: 120px 120px 77px 77px;
+	border: 1px solid dimgray;
+}
+
+.head:hover {
+	transform: rotate(1deg) translate(1px,1px);
+}
+
+.face {
+	background: floralwhite;
+	height: 180px; width: 180px;
+	border-radius: 90px 90px 60px 60px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 40px;
+	border: 1px solid dimgray;
+}
+
+.eye_l, .eye_r {
+	background: transparent;
+	height: 30px; width: 40px;
+	border-bottom: 2px dotted darkslategray;
+	border-radius: 0 0 15px 15px;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.eye_l {
+	margin-left: 30px;
+}
+
+.eye_r {
+	margin-left: 110px;
+}
+
+.nose {
+	background: transparent;
+	height: 3px; width: 4px;
+	border-bottom: 1px solid burlywood;
+	border-right: 1px solid burlywood;
+	border-radius: 0 2px 3px 2px;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 88px;
+}
+
+
+.speck {
+	background: sienna;
+	height: 2px; width: 2px;
+	border-radius: 1px;
+	position: absolute;
+	margin-left: 45px;
+	margin-top: 135px;
+}
+
+.mouth {
+	width: 20px; height: 4px;
+	background: transparent;
+	border-bottom: 1px solid red;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 80px;
+}
+
+.hair {
+	background: brown;
+	height: 40px; width: 100px;
+	margin-top: -1px;
+	margin-left: 25px;
+	border-radius: 120px 20px 120px 20px;
+	border: 1px solid floralwhite;
+}
+
+.stitch_head {
+	background: transparent;
+	height: 237px; width: 237px;
+	border-radius: 118.5px 118.5px 76px 76px;
+	border: 1px dashed dimgray;
+	position: absolute;
+	margin-left: 0.75px;
+	margin-top: 0.75px;
+}
+
+.bow {
+	z-index: 1;
+	background: transparent;
+	height: 100px; width: 100px;
+	position: absolute;
+	margin-top: -14px;
+	margin-bottom: -80px;
+	margin-left: 70px;
+}
+
+.bow_l, .bow_r {
+	z-index: 2;
+	background: coral;
+	height: 33px; width: 40px;
+	position: absolute;
+	border: 1px solid seashell;
+}
+
+.bow_l {
+	border-radius: 8px 17px 17px 8px;
+}
+
+.bow_c {
+	z-index: 3;
+	background: coral;
+	height: 27px; width: 30px;
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 35px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.bow_r {
+	margin-left: 60px;
+	border-radius: 17px 8px 8px 17px;
+}
+
+
+.ribbon_l, .ribbon_r {
+	background: coral;
+	height: 55px; width: 15px;
+	position: absolute;
+	margin-top: 22px;
+	border: 1px solid floralwhite;
+}
+
+.ribbon_l {
+	margin-left: 31.5px;
+	transform: rotate(8deg);
+	border-radius: 0 0 25px 5px;
+}
+
+.ribbon_r {
+	margin-left: 53.5px;
+	transform: rotate(-8deg);
+	border-radius: 0 0 5px 25px;
+}
+
+
+.body {
+	background: darkgray;
+	position: absolute;
+	margin-top: 2px;
+	height: 359px; width: 240px;
+	border-radius: 115px 115px 270px 270px;
+	border: 1px solid gray;
+}
+
+.stitch_body {
+	background: transparent;
+	position: absolute;
+	margin-top: 0.75px;
+	margin-left: 0.5px;
+	height: 354.51px; width: 237px;
+	border-radius: 113.56px 113.56px 266.625px 266.625px;
+	border: 1px dashed gray;
+}
